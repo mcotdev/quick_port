@@ -1,0 +1,13 @@
+[package]
+name = "quick_port"
+version = "0.1.0"
+edition = "2018"
+authors = ["Michelle Cottrell rust@mcdk.eu"]
+description = "Generates a random port number"
+license = "MIT"
+repository = "https://github.com/mcotdev/quick_port.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8" # Use the latest version or specify the version you need
